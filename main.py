@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from typing import Optional
 
+from .config import settings
+
 app = FastAPI()
 
 if __name__ == "__main__":
