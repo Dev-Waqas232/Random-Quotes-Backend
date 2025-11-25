@@ -6,6 +6,8 @@ load_dotenv()
 
 class Settings(BaseSettings):
     QUOTE_URL: str
+    PORT: int
+
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
 
